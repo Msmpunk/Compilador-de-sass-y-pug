@@ -1,15 +1,18 @@
 {
-  "name": "gulptest",
+  "name": "gulp-and-sass",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "pug": "gulp",
+    "sass": "./sass.sh",
+    "server": "live-server public"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-pug": "^3.3.0"
+    "gulp-pug": "^3.3.0",
+    "live-server": "^1.2.0"
   }
 }

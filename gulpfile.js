@@ -7,6 +7,6 @@ gulp.task('default',() => {
 
 gulp.task('views',() => {
   return gulp.src('pug/**/*.pug')
-  .pipe(pug())
+  .pipe(pug({pretty: true}))
   .pipe(gulp.dest('public'));
 });
